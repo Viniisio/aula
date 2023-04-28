@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(209, 143, 223);
+    background-color: rgb(201, 76, 226);
     font-family: 'JetBrains Mono';
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    font-family:'Comic neue';
     height: 100vh;
 }
 p{
@@ -16,9 +17,9 @@ p{
     gap: 100px;
 }
 .left{
-    background-color: #5b7991;
+    background-color: #9150e6;
     width: 100%;
-    color: white;
+    color: #d490fc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,9 +28,9 @@ p{
     padding: 20px;
 }
 .right{
-    background-color: #5b7991;
+    background-color: #9150e6;
     width: 100%;
-    color: white;
+    color: #d490fc;
     display: flex;
     align-items: center;
     border-radius: 20px 0 20px 0;
@@ -39,28 +40,51 @@ p{
 }
 .footer{
     width: 100%;
-    background-color: rgb(12, 61, 61);
+    background-color: #9150e6;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .footer:hover{
-    background-color: red;
+    background-color: rgb(224, 131, 243);
     transition:all 2s;
 }
 
 .button{
     text-decoration: none;
-    background-color: blue;
-    color: aqua;
+    background-color: #9150e6;
+    color: #d490fc;
     padding: 20px;
     border-radius: 20px;    
     cursor: pointer;
 }
 
 .button:hover{
-    transform: scale(2.01) rotate(360deg);
+    transform: scale(1.5) rotate(720deg);
     transition: all 2s;
+}
+
+.titulo{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #862fb8, #a97bbd, #862fb8) ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.a:link{
+    color: state gray;
+}
+
+.external:link{
+    background-color:lightblue;
+}
+
+.menu ul li:hover{
+    
 }
